@@ -1,0 +1,154 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(240, 243, 128, 1) 0%,
+    rgba(245, 197, 97, 1) 40%,
+    rgba(245, 197, 97, 1) 100%
+  );
+}
+
+.nav {
+  display: flex;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  width: 98.6vw;
+  height: 100px;
+  padding: 5px;
+  justify-content: space-around;
+  border-radius: 0 0 30px 30px;
+
+  background-color: #ffffff45;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.buttonCreate,
+.buttonHome,
+.buttonLeave {
+  position: absolute;
+  border-radius: 7px;
+  padding: 5px 10px;
+  margin-top: 3px;
+
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  background-color: #f5c561;
+  font-size: 15px;
+  box-shadow: 1px 2px 3px #3f3709;
+  color: #000;
+
+  transition: all 0.5s;
+}
+
+.container button:hover {
+  cursor: pointer;
+  box-shadow: none;
+  background-color: inherit;
+  color: #fff;
+}
+
+.buttonCreate {
+  margin-left: -60px;
+}
+
+.buttonHome {
+  margin-left: -30px;
+}
+
+.orden,
+.filtros {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 250px;
+  height: 40px;
+}
+
+.p {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 2px;
+}
+
+select {
+  display: flex;
+  padding: 1px 2px;
+  background-color: #f5c561;
+  text-align: center;
+  margin-bottom: 5px;
+  outline: none;
+  border: none;
+  box-shadow: 1px 2px 3px #3f3709;
+}
+
+select:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, transparent, #c89c4f);
+  background-color: #f5c561;
+  color: #fff;
+}
+
+.searchBar {
+  position: absolute;
+  width: auto;
+  margin-top: 60px;
+  margin-left: -1230px;
+}
+
+::placeholder {
+  color: #000;
+}
+
+.text {
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  box-shadow: 1px 2px 3px #3f3709;
+  background: #f5c561;
+  color: #000;
+  font-size: 20px;
+  padding-left: 10px;
+
+  transition: all 0.5s;
+}
+
+.text:hover {
+  background: linear-gradient(to bottom, transparent, #c89c4f);
+}
+
+.text:focus {
+  outline: 2px solid #000;
+}
+
+.submit {
+  margin-left: 10px;
+
+  border-radius: 7px;
+  background-color: #f5c561;
+  border: none;
+  font-size: 20px;
+  box-shadow: 1px 2px 3px #3f3709;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+
+  transition: all 0.3s;
+}
+
+.submit:hover {
+  cursor: pointer;
+  box-shadow: none;
+  background-color: inherit;
+  color: #fff;
+}
+
+.paginado {
+  display: flex;
+  align-items: center;
+}

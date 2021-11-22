@@ -1,0 +1,20 @@
+.paginado {
+  display: inline-block;
+
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  border-radius: 7px;
+  padding: 5px 10px;
+  background-color: #f5c561;
+  border: none;
+  font-size: 15px;
+  box-shadow: 1px 2px 3px #3f3709;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+
+  transition: all 0.5s;
+}

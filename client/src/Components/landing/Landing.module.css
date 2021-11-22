@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+}
+
+.fondo {
+  width: 100%;
+  position: fixed;
+  z-index: -100;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.logo {
+  width: 500px;
+  align-self: start;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.button {
+  position: absolute;
+  border-radius: 40px;
+  padding: 40px 100px;
+  align-self: flex-start;
+  margin-top: 550px;
+  margin-left: 350px;
+
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  background-color: #f5c561;
+  font-size: 15px;
+  box-shadow: 1px 1px 5px #9e9454;
+  color: #000;
+
+  transition: all 0.5s;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: none;
+  background-color: inherit;
+  color: #fff;
+}
